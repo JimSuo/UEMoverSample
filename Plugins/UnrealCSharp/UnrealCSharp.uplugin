@@ -1,0 +1,55 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "0.0.1",
+	"FriendlyName": "UnrealCSharp",
+	"Description": "",
+	"Category": "Other",
+	"CreatedBy": "crazytuzi",
+	"CreatedByURL": "https://github.com/crazytuzi",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"CanContainContent": true,
+	"IsBetaVersion": true,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"CanBeUsedWithUnrealHeaderTool": true,
+	"Modules": [
+		{
+			"Name": "UnrealCSharp",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "UnrealCSharpEditor",
+			"Type": "Editor",
+			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "ScriptCodeGenerator",
+			"Type": "Editor",
+			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "Compiler",
+			"Type": "Editor",
+			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "UnrealCSharpCore",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "CrossVersion",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "SourceCodeGenerator",
+			"Type": "Program",
+			"LoadingPhase": "PostConfigInit"
+		}
+	]
+}
